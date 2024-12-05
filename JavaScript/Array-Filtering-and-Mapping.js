@@ -27,4 +27,4 @@ const nameMap = genderFilter(people).map(person => person.name)
 genderFilter(nameMap)
 
 
-console.log(nameMap);
+console.log(nameMap); // [ 'Bob', 'Charlie', 'David' ]
