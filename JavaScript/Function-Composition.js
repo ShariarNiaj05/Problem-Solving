@@ -14,7 +14,12 @@ const makeSquare = (num) => {
 const makeDouble = (num) => {
     return num * 2
 }
+const addFiveWithNumber = (num) => {
+    return num + 5
+}
 
 
 
-console.log(makeSquare(2));
+console.log(makeSquare(2)); // 4
+console.log(makeDouble(2)); // 4
+console.log(addFiveWithNumber(2)); // 7
