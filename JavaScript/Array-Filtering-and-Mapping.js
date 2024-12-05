@@ -2,11 +2,14 @@
 
 
 const genderFilter = (arr) => {
-    let femaleFilter = []
-    for (let i = 0; i <= arr.length; i++) {
-        const gender = arr[i]
-        console.log(gender);
+    let onlyMale = []
+    for (let i = 0; i < arr.length; i++) {
+        const obj = arr[i]
+        if (obj.gender !== "female") {
+            onlyMale.push(arr[i])
+        }
     }
+    return onlyMale
 }
 
 
