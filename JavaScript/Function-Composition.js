@@ -11,7 +11,7 @@
 const makeSquare = (num) => {
     return num * num
 }
-const makedouble = (num) => {
+const makeDouble = (num) => {
     return num * 2
 }
 
