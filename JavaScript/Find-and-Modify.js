@@ -17,11 +17,12 @@ const modifyPersonAge = (arr, targetName, newAge) => {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i].name === targetName) {
             arr[i].age = newAge;
-            console.log(`${targetName}'s age has been updated to ${newAge}.`);
-            break;
+            return true
         }
     }
 
+
+    console.log("Updated Array:", arr);
 };
 
-console.log(modifyPersonAge(people, "Charlie", 24));
+modifyPersonAge(people, "Charlie", 24);
