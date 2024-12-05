@@ -1,4 +1,7 @@
-/* Create an array of objects representing cars with properties like make, model, and year. Write a function to sort the array of cars by the year of manufacture in ascending order. Print the sorted array. */
+/* Create an array of objects representing cars with properties like make, model, and year. 
+
+*** Write a function to sort the array of cars by the year of manufacture in ascending order. 
+Print the sorted array. */
 
 const cars = [
     { make: "Toyota", model: "Camry", year: 2022 },
@@ -8,4 +11,18 @@ const cars = [
     { make: "Chevrolet", model: "Malibu", year: 2019 }
 ];
 
-console.log(cars);
+const sortByYear = (arr) => {
+    let sortedCar = []
+    for (i = 0; i < arr.length; i++) {
+        const cars = arr[i]
+        let smallestYear = arr[0].year
+        if (cars.year < smallestYear) {
+            sortedCar.push(cars)
+        }
+
+
+    }
+    console.log(sortedCar);
+}
+
+sortByYear(cars)
