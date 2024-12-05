@@ -19,10 +19,10 @@ const sortByYear = (arr) => {
         if (cars.year < smallestYear || cars.year === smallestYear) {
             smallestYear = arr[i]
         }
-        console.log(smallestYear);
 
+        console.log(smallestYear);
     }
-    console.log(sortedCar);
+    // console.log(sortedCar);
 }
 
 sortByYear(cars)
