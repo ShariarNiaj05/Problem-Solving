@@ -13,6 +13,15 @@ const people = [
 ];
 
 
-const findName = (name) => {
+const modifyPersonAge = (arr, targetName, newAge) => {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i].name === targetName) {
+            arr[i].age = newAge;
+            console.log(`${targetName}'s age has been updated to ${newAge}.`);
+            break;
+        }
+    }
 
-}
+};
+
+console.log(modifyPersonAge(people, "Charlie", 24););
