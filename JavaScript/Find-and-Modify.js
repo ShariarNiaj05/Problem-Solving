@@ -24,4 +24,4 @@ const modifyPersonAge = (arr, targetName, newAge) => {
 
 };
 
-console.log(modifyPersonAge(people, "Charlie", 24););
+console.log(modifyPersonAge(people, "Charlie", 24));
