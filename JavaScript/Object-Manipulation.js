@@ -6,8 +6,12 @@
 */
 
 const titleOfBooks = (arr) => {
-    let bookTitles
+    let bookTitles = []
     // const bookTitles = arr.map(book => book.title)
+
+    for (i = 0; i < arr.length; i++) {
+        bookTitles.push(arr[i].title)
+    }
     return bookTitles
 }
 
