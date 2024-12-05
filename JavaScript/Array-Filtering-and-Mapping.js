@@ -19,9 +19,12 @@ const genderFilter = (arr) => {
     return onlyMale
 }
 
-const nameMap = genderFilter(people)
+const nameMap = genderFilter(people).map(person => person.name)
 
 
 
 
 genderFilter(nameMap)
+
+
+console.log(nameMap);
