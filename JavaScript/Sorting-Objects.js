@@ -25,17 +25,8 @@ const cars = [
 //     // console.log(sortedCar);
 // }
 const sortByYear = (arr) => {
-    let sortedCar = []
-    for (i = 0; i < arr.length; i++) {
-        const cars = arr[i]
-        let smallestYear = arr[0]
-        if (cars.year < smallestYear || cars.year === smallestYear) {
-            smallestYear = arr[i]
-        }
+    return arr.sort((a, b) => a.year - b.year);
 
-        console.log(smallestYear);
-    }
-    // console.log(sortedCar);
 }
 
-sortByYear(cars)
+console.log(sortByYear(cars));
