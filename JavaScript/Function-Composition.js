@@ -21,8 +21,12 @@ const addFiveWithNumber = (num) => {
 const compose = (num) => {
     const squareOfANumber = makeSquare(num)
     const doubleOfSquareNumber = makeDouble(squareOfANumber)
+    const addFiveWithDoubleOfSquareNumber = addFiveWithNumber(doubleOfSquareNumber)
+    return addFiveWithDoubleOfSquareNumber
 }
 
 console.log(makeSquare(2)); // 4
 console.log(makeDouble(2)); // 4
 console.log(addFiveWithNumber(2)); // 7
+console.log(compose(2)); // 7
+
