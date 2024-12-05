@@ -6,7 +6,8 @@
 */
 
 const titleOfBooks = (arr) => {
-    const bookTitles = arr.map(book => book.title)
+    let bookTitles
+    // const bookTitles = arr.map(book => book.title)
     return bookTitles
 }
 
@@ -18,4 +19,5 @@ const books = [
     { title: "Moby-Dick", author: "Herman Melville", year: 1851 }
 ];
 
-titleOfBooks(books)
+
+console.log(titleOfBooks(books));
