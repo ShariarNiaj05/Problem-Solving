@@ -28,5 +28,6 @@ const compose = (num) => {
 console.log(makeSquare(2)); // 4
 console.log(makeDouble(2)); // 4
 console.log(addFiveWithNumber(2)); // 7
-console.log(compose(2)); // 7
+console.log(compose(2)); // 13
+console.log(compose(3)); // 23
 
