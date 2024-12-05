@@ -21,9 +21,6 @@ const genderFilter = (arr) => {
 
 const nameMap = genderFilter(people).map(person => person.name)
 
-
-
-
 genderFilter(nameMap)
 
 
