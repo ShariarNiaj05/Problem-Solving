@@ -5,6 +5,11 @@
 
 */
 
+const titleOfBooks = (arr) => {
+    const bookTitles = arr.map(book => book.title)
+    return bookTitles
+}
+
 const books = [
     { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
     { title: "1984", author: "George Orwell", year: 1949 },
@@ -12,3 +17,5 @@ const books = [
     { title: "The Catcher in the Rye", author: "J.D. Salinger", year: 1951 },
     { title: "Moby-Dick", author: "Herman Melville", year: 1851 }
 ];
+
+titleOfBooks(books)
