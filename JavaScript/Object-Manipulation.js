@@ -25,3 +25,15 @@ const books = [
 
 
 console.log(titleOfBooks(books));
+/* 
+Output
+
+[
+  'To Kill a Mockingbird',
+  '1984',
+  'The Great Gatsby',
+  'The Catcher in the Rye',
+  'Moby-Dick'
+]
+  
+*/
