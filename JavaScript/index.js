@@ -28,7 +28,7 @@ Example: Happy New Year */
 
 Create an array of numbers with some duplicate values. Write a function to filter out the duplicate values and return a new array with only unique numbers. Print the result. */
 
-/* 9.: Find Maximum Value:
+/* 9.: Find-Maximum-Value:
 
 Write a function that takes an array of numbers and returns the maximum value. */
 
