@@ -32,5 +32,5 @@ Create an array of numbers with some duplicate values. Write a function to filte
 
 Write a function that takes an array of numbers and returns the maximum value. */
 
-/* 10.Task: Advanced Sorting
+/* 10.Task: Advanced-Sorting
 Create an array of objects representing students with 'name' and 'grades' properties. Write a function to sort the students by average grade in descending order. */
