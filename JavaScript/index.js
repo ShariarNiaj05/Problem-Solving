@@ -19,7 +19,7 @@ Write a function that searches an array of objects for a specific person by name
 /* 6.Task: Array Reduction
 Create an array of numbers. Write a function that uses the reduce method to calculate the sum of all even numbers in the array. */
 
-/* 7. Task: Leap Year Checker
+/* 7. Task: Leap-Year-Checker
 
 Write a function that determines whether a given year is a leap year.
 Example: Happy New Year */
