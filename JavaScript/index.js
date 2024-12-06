@@ -16,7 +16,7 @@ Create an array of objects representing cars with properties like make, model, a
 /* 5.Task: Find-and-Modify
 Write a function that searches an array of objects for a specific person by name. If found, modify their age property. Print the updated array. */
 
-/* 6.Task: Array Reduction
+/* 6.Task: Array-Reduction
 Create an array of numbers. Write a function that uses the reduce method to calculate the sum of all even numbers in the array. */
 
 /* 7. Task: Leap-Year-Checker
