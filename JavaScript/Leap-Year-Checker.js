@@ -2,7 +2,7 @@
 Example: Happy New Year */
 
 const checkLeapYear = (year) => {
-    if (year % 2 === 0 || year % 4 || 0) {
+    if (year % 4 === 0) {
         return `${year} is leap Year`
     }
     else {
