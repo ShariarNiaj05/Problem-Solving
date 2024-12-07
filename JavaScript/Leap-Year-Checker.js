@@ -17,3 +17,4 @@ console.log(checkLeapYear(20218));
 console.log(checkLeapYear(2020));
 console.log(checkLeapYear(2019));
 console.log(checkLeapYear(2021));
+console.log(checkLeapYear(2024));
