@@ -18,7 +18,9 @@ const removeDuplicates = (arr) => {
                 uniqueArr.push(arr[i])
             }
         }
-        return uniqueArr
+        // return uniqueArr
     }
-    // return uniqueArr
+    return uniqueArr
 }
+
+// yet to complete
