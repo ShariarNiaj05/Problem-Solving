@@ -4,3 +4,11 @@
 ***Print the result.  */
 
 const arrWithDuplicates = [5, 5, 8, 7, 3, 3]
+
+const removeDuplicates = (arr) => {
+    let uniqueArr = []
+
+    for (i = 0; i < arr.length; arr++) {
+
+    }
+}
