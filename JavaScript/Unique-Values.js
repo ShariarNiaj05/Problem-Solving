@@ -11,7 +11,14 @@ const removeDuplicates = (arr) => {
 
     for (i = 0; i < arr.length; arr++) {
         let uniqueValue = arr[0]
-        for (j = 0; j < uniqueValue.length; i++)
+        for (j = 0; j < uniqueValue.length; i++) {
+            if (arr[i] === uniqueArr[j]) {
+                return false
+            } else {
+                uniqueArr.push(arr[i])
+            }
+        }
+        return uniqueArr
     }
-    return uniqueArr
+    // return uniqueArr
 }
