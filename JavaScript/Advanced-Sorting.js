@@ -19,3 +19,6 @@ const sortByGrade = (data) => {
     return sort
 
 }
+
+
+const sortedStudents = sortByGrade(students);
