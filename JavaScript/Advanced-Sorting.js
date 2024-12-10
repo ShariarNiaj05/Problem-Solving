@@ -9,3 +9,10 @@ const students = [
     { name: "Charlie", grades: [95, 96, 97] },
     { name: "Diana", grades: [88, 89, 91] }
 ];
+
+const sortByGrade = (data) => {
+    const total = grades.reduce((sum, grade) => sum + grade, 0);
+    const avg = total / grades.length;
+
+
+}
