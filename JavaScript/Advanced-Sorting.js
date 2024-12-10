@@ -11,7 +11,7 @@ const students = [
 ];
 
 const sortByGrade = (data) => {
-    const total = grades.reduce((sum, grade) => sum + grade, 0);
+    const total = data.reduce((sum, grade) => sum + grade, 0);
     const avg = total / grades.length;
 
 
