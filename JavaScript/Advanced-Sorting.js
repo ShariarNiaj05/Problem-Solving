@@ -12,10 +12,10 @@ const students = [
 
 const sortByGrade = (data) => {
     const total = data.reduce((sum, grade) => sum + grade, 0);
-    const avg = total / grades.length;
+    const avg = total / data.length;
 
 
-    const sort = avg.sort((a, b) => calculateAverage(b.grades) - calculateAverage(a.grades));
+    const sort = data.sort((a, b) => calculateAverage(b.grades) - calculateAverage(a.grades))
     return sort
 
 }
