@@ -22,3 +22,4 @@ const sortByGrade = (data) => {
 
 
 const sortedStudents = sortByGrade(students);
+console.log(sortedStudents);
